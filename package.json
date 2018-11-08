@@ -14,7 +14,8 @@
     "updateSnapshot": "react-scripts test --updateSnapshot",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js",
-    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
+    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,6 +27,18 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@storybook/addon-actions": "^4.0.4",
+    "@storybook/addon-backgrounds": "^4.0.4",
+    "@storybook/addon-events": "^4.0.4",
+    "@storybook/addon-knobs": "^4.0.4",
+    "@storybook/addon-links": "^4.0.4",
+    "@storybook/addon-notes": "^4.0.4",
+    "@storybook/addon-options": "^4.0.4",
+    "@storybook/addon-storyshots": "^4.0.4",
+    "@storybook/addons": "^4.0.4",
+    "@storybook/react": "^4.0.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "eslint": "5.6.0",
