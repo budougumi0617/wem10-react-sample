@@ -11,6 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "updateSnapshot": "react-scripts test --updateSnapshot",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js",
     "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
